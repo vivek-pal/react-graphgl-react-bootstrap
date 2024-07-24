@@ -1,0 +1,24 @@
+.navbar {
+    background-color: var(--primary-bg-color);
+}
+
+.navbar .navbar-toggler {
+    border-color: white;
+}
+
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand img {
+   
+}
+
+.navbar .navbar-brand img {
+    /* transform: rotate(45deg); */
+    background-color: white;
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        background-color: var(--secondary-bg-color);
+    }
+}
